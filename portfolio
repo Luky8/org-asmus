@@ -1,0 +1,96 @@
+
+  <!-- HEADER -->
+	<header>
+		
+		<!-- header wrapper -->
+		<div class="wrapper cf">
+			<div id="logo">
+				<a href="index.html" ><img src="img/logo.png" alt="" /></a>
+			</div>
+		</div><!-- ENDS header wrapper -->
+		
+		
+		
+		<!-- nav -->
+		<nav class="cf">
+			<div class="wrapper cf">
+				<ul id="nav" class="sf-menu">
+					<li><a onclick="$('#container').load('home.html');">HOME</a></li>
+					<li><a onclick="$('#container').load('page.html');">ABOUT</a>
+						<ul>
+							<li><a onclick="$('#container').load('page.html');">Columns</a></li>
+							<li><a onclick="$('#container').load('page-typography.html');">Typography</a></li>
+							<li><a onclick="$('#container').load('page-elements.html');">Elements</a></li>
+						</ul>
+					</li>
+					<li><a onclick="$('#container').load('blog.html');">BLOG</a></li>
+					<li class="current-menu-item"><a onclick="$('#container').load('portfolio.html');">WORK</a></li>
+					<li><a onclick="$('#container').load('contact.html');">CONTACT</a></li>
+					<li id="flip"><a>LOG IN</a></li>
+				</ul>
+				<div id="combo-holder"></div>
+			</div>
+		</nav>
+		<!-- ends nav -->
+			
+	</header>
+	<!-- ENDS HEADER -->
+	
+	
+	<!-- MAIN -->
+	<div role="main" id="main">
+		<div class="wrapper">
+		
+			<ul id="filter-buttons">
+				<li><a href="#" data-filter="*" class="selected">show all</a></li>
+				<li><a href="#" data-filter=".web">web</a></li>
+				<li><a href="#" data-filter=".print">print</a></li>
+				<li><a href="#" data-filter=".design">design</a></li>
+				<li><a href="#" data-filter=".photo">photo</a></li>
+			</ul>
+			
+			<!-- Filter container -->
+				<ul id="filter-container" class="feature cf">
+					<li class="web print">
+					 	<a href="project.html" class="thumb" ><img src="img/dummies/430x500a.jpg" alt="" />
+						 	<div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+					 	</a>
+					 	<div class="caption">Lorem ipsum dolor amet</div>
+				 	</li>
+				 	<li class="print">
+					 	<a href="project.html" class="thumb" ><img src="img/dummies/430x500b.jpg" alt="" />
+						 	<div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+					 	</a>
+					 	<div class="caption">Lorem ipsum dolor amet</div>
+				 	</li>
+				 	<li class="web">
+					 	<a href="project.html" class="thumb" ><img src="img/dummies/430x500c.jpg" alt="" />
+						 	<div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+					 	</a>
+					 	<div class="caption">Lorem ipsum dolor amet</div>
+				 	</li>
+				 	
+				 	<li class="web design photo">
+					 	<a href="project.html" class="thumb" ><img src="img/dummies/430x500d.jpg" alt="" />
+						 	<div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+					 	</a>
+					 	<div class="caption">Lorem ipsum dolor amet</div>
+				 	</li>
+				 	<li class="design">
+					 	<a href="project.html" class="thumb" ><img src="img/dummies/430x500e.jpg" alt="" />
+						 	<div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+					 	</a>
+					 	<div class="caption">Lorem ipsum dolor amet</div>
+				 	</li>
+				 	<li class="print photo">
+					 	<a href="project.html" class="thumb" ><img src="img/dummies/430x500f.jpg" alt="" />
+						 	<div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+					 	</a>
+					 	<div class="caption">Lorem ipsum dolor amet</div>
+				 	</li>
+				
+				</ul><!-- ENDS Filter container -->
+	  
+	  </div>
+	</div>
+	<!-- ENDS MAIN -->
